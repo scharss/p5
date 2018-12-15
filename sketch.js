@@ -9,7 +9,7 @@ function draw() {
 	//ellipse
 	noStroke()
 	fill(250,200,200);
-	ellipse(mouseX,mouseY,25,25,);
+	ellipse(touchX,touchY,25,25,);
 	
 	//rectangle
 	//fill(200,250,200);
