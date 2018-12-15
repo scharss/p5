@@ -1,10 +1,21 @@
 function setup() {
-createCanvas(240, 120);
+  createCanvas(600, 400);
+	background(250,250,100);
 }
+
 function draw() {
-background(204);
-line(20, 20, 220, 100);
-if (touch) {
-line(220, 20, 20, 100);
+  
+	
+	//ellipse
+	noStroke()
+	fill(250,200,200);
+	ellipse(x,y,25,25,);
+	
+	//rectangle
+	//fill(200,250,200);
+	//rect(400,100,50,50);
 }
+
+function mousePressed(){
+ background(250,250,100);
 }
