@@ -1,21 +1,8 @@
 function setup() {
-  createCanvas(600, 400);
-	background(250,250,100);
+createCanvas(480, 120);
+fill(0, 102);
+noStroke();
 }
-
 function draw() {
-  
-	
-	//ellipse
-	noStroke()
-	fill(250,200,200);
-	ellipse(touchX,touchY,25,25,);
-	
-	//rectangle
-	//fill(200,250,200);
-	//rect(400,100,50,50);
-}
-
-function mousePressed(){
- background(250,250,100);
+ellipse(touchX, touchY, 15, 15);
 }
